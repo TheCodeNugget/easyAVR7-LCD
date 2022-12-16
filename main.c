@@ -1,11 +1,14 @@
-/*
- * Atmega32_GPS.c
- *
- * Created: 14/12/2022 17:19:52
- * Author : Nugget
- */ 
+/*************************************************************************
+ Title	:   C Demo file for the usage of easyAVRLCD.h include file
+ Author:    Kaan "The Nugget" Yýlmaz <https://github.com/TheCodeNugget>
+ File:	    LCD_Demo.c
+ Software:  AVR-GCC / Atmel Studio
+ Hardware:  easyAVRv7 Dev Board
+ License:   GNU Public License v3
+***************************************************************************/
 
-#define F_CPU 8000000ul
+//TODO: Delete This Comment
+#define F_CPU 8000000ul // <-- Set this for the target MCU clock (in Hz) for timing purposes
 
 #include "easyAVRLCD.h" // <-- Where Magic Happens
 #include <inttypes.h>

@@ -1,9 +1,11 @@
-/*
- * lcd.h
- *
- * Created: 15/12/2022 12:26:55
- *  Author: Nugget
- */ 
+/*************************************************************************
+ Title	:   include file for using LCD module on easyAVRv7
+ Author:    Kaan "The Nugget" Yýlmaz <https://github.com/TheCodeNugget>
+ File:	    LCD_Demo.c
+ Software:  AVR-GCC / Atmel Studio
+ Hardware:  easyAVRv7 Dev Board
+ License:   GNU Public License v3
+***************************************************************************/
 
 #ifndef LCD_H_
 #define LCD_H_
