@@ -1,10 +1,10 @@
 /*************************************************************************
  Title	:   C Demo file for the usage of easyAVRLCD.h include file
- Author:    Kaan "The Nugget" Yýlmaz <https://github.com/TheCodeNugget>
+ Author:    Kaan "The Nugget" Yilmaz <https://github.com/TheCodeNugget>
  File:	    LCD_Demo.c
  Software:  AVR-GCC / Atmel Studio
  Hardware:  easyAVRv7 Dev Board
- License:   GNU Public License v3
+ License:   GNU General Public License v3
 ***************************************************************************/
 
 //TODO: Delete This Comment
