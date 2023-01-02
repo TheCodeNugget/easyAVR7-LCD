@@ -1,6 +1,6 @@
 /*************************************************************************
  Title	:   include file for using LCD module on easyAVRv7
- Author:    Kaan "The Nugget" Yýlmaz <https://github.com/TheCodeNugget>
+ Author:    Kaan "The Nugget" Yilmaz <https://github.com/TheCodeNugget>
  File:	    LCD_Demo.c
  Software:  AVR-GCC / Atmel Studio
  Hardware:  easyAVRv7 Dev Board
