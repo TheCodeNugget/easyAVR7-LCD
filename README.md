@@ -7,10 +7,10 @@ string2LCD() function is limited to char/string input by the HD44780 Controller.
 Of Note: itoa() and its variants involve division and therefore are intensive processes for MCUs
 
 ## Working with floating Point Data
-Conversion of double or floating point data is often done with the usage of [sprintf()](https://www.ibm.com/docs/en/i/7.2?topic=functions-sprintf-print-formatted-data-buffer) function under <stdio.h>. However in most embedded systems usage of floating point extension of the function is disabled resulting in a "?" return. To enable this functionality following commands need to be added to the gcc command
+Conversion of double or floating point data is often done with the usage of [sprintf()](https://www.ibm.com/docs/en/i/7.2?topic=functions-sprintf-print-formatted-data-buffer) function under <stdio.h>. However in most embedded systems usage of floating point extension of the function is disabled resulting in a "?" return. To enable this functionality following arguments need to be added to the gcc command
 
 `-Wl,-u,vfprintf -lprintf_flt -lm`
 
-With Atmel Studio the commands can be added to the following
+With Atmel Studio the arguments can be added to the following
 
 > Project -> Properties ->Toolchain->AVR/GNU linker->Misc
